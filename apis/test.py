@@ -1,14 +1,12 @@
 import json
 import requests
 from pprint import pprint
+import json
 
-api_token = 'BQB3Dr9NqHxXY6-kaGxX2vfbXdMUCZLqv8fZZ8D0PhKGA66GAvvG97eVyATrMGVnFTFxzWZmHtr67CXxIPhmS3iLn785PXXEwrU2Gv0KJwZCLRSkBCoHvm8V12_r_9dcxkIDRIxDPXzVImQ'
-api_url_base = 'https://api.spotify.com/'
-headers = { 'Content-Type': 'application/json',
-			'Authorization': 'Bearer {0}'.format(api_token)}
+headers = { 'Content-Type': 'application/json'}
 
 def get_album():
-	api_url = '{0}v1/artists/2yEwvVSSSUkcLeSTNyHKh8/albums'.format(api_url_base)
+	api_url = 'https://statsapi.web.nhl.com/api/v1/teams/8/stats'
 	response = requests.get(api_url, headers=headers)
 
 	pprint(api_url)
@@ -24,7 +22,7 @@ album_info = get_album()
 if album_info is not None:
     print("Here's your info: ")
     for album in album_info.items():
-        print(album)
+        print(json.dumps(album, indent=2))
 
 else:
         print('[!] Request Failed')
