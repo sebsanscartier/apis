@@ -22,7 +22,8 @@ album_info = get_album()
 if album_info is not None:
     print("Here's your info: ")
     for album in album_info.items():
-        print(json.dumps(album, indent=2))
+        with open('teams.txt', 'w') as f:
+        	print(json.dumps(album, indent=2), file=f)
 
 else:
         print('[!] Request Failed')

@@ -1,0 +1,93 @@
+[
+  "stats",
+  [
+    {
+      "type": {
+        "displayName": "statsSingleSeason"
+      },
+      "splits": [
+        {
+          "stat": {
+            "gamesPlayed": 18,
+            "wins": 10,
+            "losses": 5,
+            "ot": 3,
+            "pts": 23,
+            "ptPctg": "63.9",
+            "goalsPerGame": 3.444,
+            "goalsAgainstPerGame": 3.056,
+            "evGGARatio": 1.3333,
+            "powerPlayPercentage": "20.7",
+            "powerPlayGoals": 12.0,
+            "powerPlayGoalsAgainst": 15.0,
+            "powerPlayOpportunities": 58.0,
+            "penaltyKillPercentage": "73.7",
+            "shotsPerGame": 33.5,
+            "shotsAllowed": 32.5556,
+            "winScoreFirst": 0.818,
+            "winOppScoreFirst": 0.143,
+            "winLeadFirstPer": 0.857,
+            "winLeadSecondPer": 0.833,
+            "winOutshootOpp": 0.7,
+            "winOutshotByOpp": 0.429,
+            "faceOffsTaken": 1154.0,
+            "faceOffsWon": 556.0,
+            "faceOffsLost": 598.0,
+            "faceOffWinPercentage": "48.2",
+            "shootingPctg": 10.3,
+            "savePctg": 0.906
+          },
+          "team": {
+            "id": 8,
+            "name": "Montr\u00e9al Canadiens",
+            "link": "/api/v1/teams/8"
+          }
+        }
+      ]
+    },
+    {
+      "type": {
+        "displayName": "regularSeasonStatRankings"
+      },
+      "splits": [
+        {
+          "stat": {
+            "wins": "8th",
+            "losses": "7th",
+            "ot": "9th",
+            "pts": "9th",
+            "ptPctg": "9th",
+            "goalsPerGame": "6th",
+            "goalsAgainstPerGame": "19th",
+            "evGGARatio": "5th",
+            "powerPlayPercentage": "13th",
+            "powerPlayGoals": "16th",
+            "powerPlayGoalsAgainst": "26th",
+            "powerPlayOpportunities": "19th",
+            "penaltyKillOpportunities": "13th",
+            "penaltyKillPercentage": "27th",
+            "shotsPerGame": "9th",
+            "shotsAllowed": "22nd",
+            "winScoreFirst": "4th",
+            "winOppScoreFirst": "25th",
+            "winLeadFirstPer": "8th",
+            "winLeadSecondPer": "13th",
+            "winOutshootOpp": "3rd",
+            "winOutshotByOpp": "3rd",
+            "faceOffsTaken": "3rd",
+            "faceOffsWon": "9th",
+            "faceOffsLost": "30th",
+            "faceOffWinPercentage": "27th",
+            "savePctRank": "17th",
+            "shootingPctRank": "10th"
+          },
+          "team": {
+            "id": 8,
+            "name": "Montr\u00e9al Canadiens",
+            "link": "/api/v1/teams/8"
+          }
+        }
+      ]
+    }
+  ]
+]
