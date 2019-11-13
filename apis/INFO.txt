@@ -1,0 +1,9 @@
+Q5.
+
+At first glance I can see that the french accents are not showed properly. I will be able to use OpenRefine to correct this.
+
+As for regular expression, I don't have any need of this so far, but I could be useful when I will apply more text data over the numeric data that I have so far.
+
+Basically the only data accessible right now is the team stats. Which returns current season stats and the current season rankings for a specific team (Montréal Canadiens). My goal is to include all the teams and after that go deeper and include the players stats of theses teams.
+
+When I was calling the API, I was getting a lot of messy data. So I had to search online on how to properly display them. After that I exported them in a text file to replicate the JSON format.
