@@ -20,9 +20,9 @@ def get_album():
 album_info = get_album()
 
 if album_info is not None:
-    print("Here's your info: ")
+    print("Successfully created the .JSON file")
     for album in album_info.items():
-        with open('teams.txt', 'w') as f:
+        with open('habs_team_info.json', 'w') as f:
         	print(json.dumps(album, indent=2), file=f)
 
 else:
