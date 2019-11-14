@@ -1,5 +1,8 @@
 import requests
 import json
+from flask import Flask
+
+app = Flask(__name__)
 
 headers = { 'Content-Type': 'application/json'}
 
@@ -19,7 +22,12 @@ if team_info is not None:
     for team in team_info.items():
         with open('habs_team_info.json', 'w') as f:
         	print(json.dumps(team, indent=2), file=f)
-
 else:
         print('[!] Request Failed')
 
+@app.route("/")
+def hello():
+    return json.dumps(team_info, indent=4)
+
+if __name__ == "__main__":
+	app.run()
